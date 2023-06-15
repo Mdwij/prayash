@@ -23,167 +23,115 @@
     <![endif]-->
 </head>
 <body>
-	<header>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><i class="icon-info-blocks material-icons"><img src="img/logo_file_prayash-1.png" width="70" height="50"> </i></a>
-                </div>
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-                        <li><a class="waves-effect waves-dark" href="index.html">Home</a></li>
-						 <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle waves-effect waves-dark">About Us <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="waves-effect waves-dark" href="about.html">Company</a></li>
-                            <li><a class="waves-effect waves-dark" href="team.html">Our Team</a></li>
-                        </ul>
-                    </li>
-						<li class="active"><a class="waves-effect waves-dark" href="services.html">Services</a></li>
-                        <li><a class="waves-effect waves-dark" href="portfolio.html">Gallery</a></li>
-                        <li><a class="waves-effect waves-dark" href="pricing.html">Pricing</a></li>
-                        <li><a class="waves-effect waves-dark" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-	</header>
-<!-- end header -->
-	<section id="inner-headline">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<h2 class="pageTitle">Services</h2>
+	<header class="header">
+  <div class="container">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a href="#" class="navbar-brand scroll-top logo  animated bounceInLeft"><b><img src="images/logo_file_prayash-1.png" height="60px" width="70px"/ > </b></a> </div>
+      <!--/.navbar-header-->
+      <div id="main-nav" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav" id="mainNav">
+          <li class="active" id="firstLink"><a href="#home" class="scroll-link">Home</a></li>
+          <li><a href="#services" class="scroll-link">Services</a></li>
+          <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
+          <li><a href="#work" class="scroll-link">Portfolio</a></li>
+          <li><a href="#team" class="scroll-link">Team</a></li>
+          <li><a href="#contactUs" class="scroll-link">Contact Us</a></li>
+        </ul>
+      </div>
+      <!--/.navbar-collapse-->
+    </nav>
+    <!--/.navbar-->
+  </div>
+  <!--/.container-->
+</header>
+<!--/.header-->
+<div id="#top"></div>
+<section id="home">
+  <div class="banner-container"> <img src="images/banner-bg.jpg" alt="banner" />
+    <div class="container banner-content">
+      <div class="hero-text animated fadeInDownBig">
+        <h1 class="responsive-headline" style="font-size: 40px;">Prayash - Heavy Engineering Pvt LTD<br/>Where reliability and innovation meet.</h1>
+         <a href="#basics" class="arrow-link"> <i class="fa fa-arrow-circle-down fa-2x"></i> </a>
+      </div>
+
+      <!-- <a class="hero-button learn-more smoothscroll text-center" href="#features">Learn More</a>-->
+      <!-- <div class="hero-img"> <img src="images/homepage-1204-background-lapto.png" alt="" class="text-center animated fadeInUpBig"/></div>-->
+    </div>
+  </div>
+</section>
+	<!-- NEW ARRIVAL  -->
+	<section id="new-arrival" class="ftco-section bg-light ftco-room">
+		<div class="text-center">
+			<h2 class="font-weight-bold">Our Products</h2>
+			<p style="color: #FFFFFF">Explore our comprehensive range of services designed to meet your needs and exceed
+				your expectations.</p>
+		</div>
+		<div class="d-flex container justify-content-center align-items-center flex-wrap">
+			<div class="p-2">
+				<div class="card card-hover" style="width: 18rem; height: 25rem; border-radius: 10px 10px 0px 0px;">
+					<img src="img/Tank.jpg" class="card-img-top my-auto" alt="...">
+					<div class="overlay"></div>
+					<div class="text-center my-auto card-content">
+						<a href="dishend.html"><button class="btn btn-md bg-dark w-50 mx-auto text-light">View Details</button></a>
+					</div>
+				</div>
+				<h4 class="bg-dark text-center text-light m-0 py-2" style ="border-radius: 0px 0px 10px 10px;">Dish-end</h4>
+			</div>
+			<div class="p-2">
+				<div class="card card-hover" style="width: 18rem; height: 25rem; border-radius: 10px 10px 0px 0px;">
+					<img src="img/p_16.png" class="card-img-top my-auto" alt="...">
+					<div class="overlay"></div>
+					<div class="text-center my-auto card-content">
+					<a href="pipecap.html"><button class="btn btn-md bg-dark w-50 mx-auto text-light">View Details</button></a>
+					</div>
+				</div>
+				<h4 class="bg-dark text-center text-light m-0 py-2" style ="border-radius: 0px 0px 10px 10px;">Pipe Caps</h4>
+			</div>
+			<div class="p-2">
+				<div class="card card-hover" style="width: 18rem; height: 25rem; border-radius: 10px 10px 0px 0px;">
+					<img src="img/tori.png" class="card-img-top my-auto" alt="...">
+					<div class="overlay"></div>
+					<div class="text-center my-auto card-content">
+						<a href="cones.html"><button class="btn btn-md bg-dark w-50 mx-auto text-light">View Details</button></a>
+					</div>
+				</div>
+				<h4 class="bg-dark text-center text-light m-0 py-2" style ="border-radius: 0px 0px 10px 10px;">Cones /Tori-cones</h4>
+			</div>
+			<div class="p-2">
+				<div class="card card-hover" style="width: 18rem; height: 25rem; border-radius: 10px 10px 0px 0px;">
+					<img src="img/gallery2.jpg" class="card-img-top my-auto" alt="...">
+					<div class="overlay"></div>
+					<div class="text-center my-auto card-content">
+						<a href="bending.html"><button class="btn btn-md bg-dark w-50 mx-auto text-light">View Details</button></a>
+					</div>
+				</div>
+				<h4 class="bg-dark text-center text-light m-0 py-2" style ="border-radius: 0px 0px 10px 10px;">Coil Bending</h4>
+			</div>
+			<div class="p-2">
+				<div class="card card-hover" style="width: 18rem; height: 25rem; border-radius: 10px 10px 0px 0px;">
+					<img src="img/expb.jpg" class="card-img-top my-auto" alt="...">
+					<div class="overlay"></div>
+					<div class="text-center my-auto card-content">
+						<a href="bellow.html"><button class="btn btn-md bg-dark w-50 mx-auto text-light">View Details</button></a>
+					</div>
+				</div>
+				<h4 class="bg-dark text-center text-light m-0 py-2" style ="border-radius: 0px 0px 10px 10px;">Expansion Below</h4>
+			</div>
+			<div class="p-2">
+				<div class="card card-hover" style="width: 18rem; height: 25rem; border-radius: 10px 10px 0px 0px;">
+					<img src="img/product2.jpg" class="card-img-top my-auto" alt="...">
+					<div class="overlay"></div>
+					<div class="text-center my-auto card-content">
+						<a href="swage%20connection.html"><button class="btn btn-md bg-dark w-50 mx-auto text-light">View Details</button></a>
+					</div>
+				</div>
+				<h4 class="bg-dark text-center text-light m-0 py-2" style ="border-radius: 0px 0px 10px 10px;">Swage Connection</h4>
 			</div>
 		</div>
-	</div>
 	</section>
-	<section id="content">
-		<div class="container content">		
-        <!-- Service Blcoks -->
-			
-						<div class="row"> 
-							<div class="col-md-12">
-								<div class="about-logo">
-									<h3>Our Best <span class="color">Services</span></h3>
-									<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-                                    	<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-								</div>  
-							</div>
-						</div>
-						 
-		    <!-- Info Blcoks -->
-        <div class="row">
-            <div class="col-sm-4 info-blocks">
-                <i class="icon-info-blocks fa fa-bell-o"></i>
-                <div class="info-blocks-in">
-                    <h3>Awesome Design</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
-                </div>
-            </div>
-            <div class="col-sm-4 info-blocks">
-                <i class="icon-info-blocks fa fa-hdd-o"></i>
-                <div class="info-blocks-in">
-                    <h3>FontAwesome</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
-                </div>
-            </div>
-            <div class="col-sm-4 info-blocks">
-                <i class="icon-info-blocks fa fa-lightbulb-o"></i>
-                <div class="info-blocks-in">
-                    <h3>Bootstrap</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
-                </div>
-            </div>
-        </div>
-        <!-- End Info Blcoks -->
 
-       
-        <!-- Info Blcoks -->
-        <div class="row">
-            <div class="col-sm-4 info-blocks">
-                <i class="icon-info-blocks fa fa-code"></i>
-                <div class="info-blocks-in">
-                    <h3>SEO Ready</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
-                </div>
-            </div>
-            <div class="col-sm-4 info-blocks">
-                <i class="icon-info-blocks fa fa-compress"></i>
-                <div class="info-blocks-in">
-                    <h3>Fully Responsive</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
-                </div>
-            </div>
-            <div class="col-sm-4 info-blocks">
-                <i class="icon-info-blocks fa fa-html5"></i>
-                <div class="info-blocks-in">
-                    <h3>CSS3 + HTML5</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
-                </div>
-            </div>
-        </div>
-        <!-- End Info Blcoks -->
-        <div class="row service-v1 margin-bottom-40">
-            <div class="col-md-4 md-margin-bottom-40">
-					<div class="card small">
-                        <div class="card-image">
-                             <img class="img-responsive" src="img/service1.jpg" alt="">  
-                            <span class="card-title">Material Design</span>
-                        </div>
-                        <div class="card-content">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt
-                            </p>
-                        </div>
-                    </div>        
-            </div>
-			   <div class="col-md-4 md-margin-bottom-40">
-					<div class="card small">
-                        <div class="card-image">
-                             <img class="img-responsive" src="img/service2.jpg" alt="">  
-                            <span class="card-title">Bootstrap</span>
-                        </div>
-                        <div class="card-content">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt
-                            </p>
-                        </div>
-                    </div>        
-            </div>
-			   <div class="col-md-4 md-margin-bottom-40">
-					<div class="card small">
-                        <div class="card-image">
-                             <img class="img-responsive" src="img/service3.jpg" alt="">  
-                            <span class="card-title">HTML5/CSS3</span>
-                        </div>
-                        <div class="card-content">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt
-                            </p>
-                        </div>
-                    </div>        
-            </div> 
-        </div>
-        <!-- End Service Blcoks -->
- 
-     
-
-        
     </div>
     </section>
 	<footer>
