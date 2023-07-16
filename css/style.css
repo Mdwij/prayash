@@ -2105,3 +2105,63 @@ position:absolute;
   .flex-wrap {
   -ms-flex-wrap: wrap !important;
 	  flex-wrap: wrap !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .clients #owl-demo .item {
+	background: none;
+}
+.clients .helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.clients .helper img {
+	vertical-align: middle;
+	max-height: 70px;
+	max-width: 80%;
+}
+.clients .helper:hover {
+	cursor: e-resize;
+}
+.clients .customNavigation > a {
+	font-size: 25px;
+	cursor: pointer;
+	margin: 0px 5px;
+#owl-demo .item {
+	background: #3fbf79;
+	padding: 30px 0px;
+	margin: 10px;
+	color: #FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+}
+.customNavigation {
+	text-align: center;
+}
+.customNavigation a {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+.facilty-image .img{
+width: 20px;
+}
