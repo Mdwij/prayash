@@ -1,35 +1,282 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Container with Image and Content</title>
-  <style>
-    .container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+<meta charset="utf-8">
+<title>Prayash</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="Dwij Makvana" />
+<!-- css -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/flexslider.css" rel="stylesheet" />
 
-    .image {
-      flex: 1;
-      size: 30%;
-      padding: 20px;
-    }
+<!-- Vendor Styles -->
+<link href="css/magnific-popup.css" rel="stylesheet">
+<!-- Block Styles -->
+<link href="css/style.css" rel="stylesheet" />
+<link href="css/gallery-1.css" rel="stylesheet">
 
-    .content {
-      flex: 1;
-      padding: 20px;
-    }
-  </style>
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
 </head>
 <body>
-  <div class="container">
-    <div class="image">
-      <img src="img/about2.jpg">
-    </div>
-    <div class="content">
-      <h2>Content Title</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae tempor nunc. Nulla facilisi. Sed auctor, mauris at lobortis varius, nisl est iaculis nibh, et facilisis dolor lacus in est.</p>
-    </div>
-  </div>
+<div id="wrapper">
+	<!-- start header -->
+		<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><i class="icon-info-blocks material-icons"><img src="img/logo_file_prayash-1.png" width="70" height="50"></i></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li><a class="waves-effect waves-dark" href="index.html">Home</a></li>
+						 <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="waves-effect waves-dark" href="about.html">Company</a></li>
+                            <li><a class="waves-effect waves-dark" href="team.html">Our Team</a></li>
+                        </ul>
+                    </li>
+                       <li class="active"><a href="product.html" class="waves-effect waves-dark" >Products</a></li>
+                        <li><a href="portfolio.html" class="waves-effect waves-dark" >Gallery</a></li>
+                        <li><a class="waves-effect waves-dark" href="pricing.html">Our Facitly</a></li>
+                        <li><a class="waves-effect waves-dark" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header><!-- end header -->
+	<section id="inner-headline">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="pageTitle">Products</h2>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section id="content">
+	<div class="container">
+
+						<div class="row">
+							<div class="col-md-12">
+								<div class="about-logo">
+									<h3>Our <span class="color">Products</span></h3>
+									<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
+                                    	<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
+								</div>
+							</div>
+						</div>
+
+	</div>
+	</section>
+			  <!-- Start Gallery 1-2 -->
+    <section id="gallery-1" class="content-block section-wrapper gallery-1">
+    	 	<div class="container">
+            <div class="row">
+                <div id="isotope-gallery-container">
+
+                    <!-- /.gallery-item-wrapper -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper nature outside">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="img/Heat%20Exchanger.jpg" class="img-responsive" alt="2nd gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/Heat%20Exchanger.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+                                	<h5>Critical Equipment Process</h5>
+                            	</div>
+                              <div class="editContent">
+                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.gallery-item-wrapper -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper photography exchanger">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="img/VERTICAL%20STORAGE%20SILO.jpg" class="img-responsive" alt="3rd gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/VERTICAL%20STORAGE%20SILO.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+                                	<h5>Tanks &amp; Silos:</h5>
+                            	</div>
+                            	<div class="editContent">
+                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.gallery-item-wrapper -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper creative nature">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="img/Actual%20-%20Transportation%20saddle2%20(other%20items).jpg" class="img-responsive" alt="4th gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/Actual%20-%20Transportation%20saddle2%20(other%20items).jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+                                	<h5>Skid Packages:</h5>
+                            	</div>
+                            	<div class="editContent">
+                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.gallery-item-wrapper -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper nature">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="img/Piping.jpg" class="img-responsive" alt="5th gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/Piping.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+                                	<h5>Piping</h5>
+                            	</div>
+                            	<div class="editContent">
+                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.gallery-item-wrapper -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper exchanger creative">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="img/Pig%20launcher.jpg" class="img-responsive" alt="6th gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/Pig%20launcher.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+                                	<h5>Other Structural Steel Fabricaiton:</h5>
+                            	</div>
+                            	<div class="editContent">
+                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.isotope-gallery-container -->
+            </div>
+            <!-- /.row -->
+        <!-- /.container -->
+		</div>
+    </section>
+    <!--// End Gallery 1-2 -->
+	</div>
+	<footer>
+	<div class="container">
+
+		<div class="row">
+						<div class="col-sm-3">
+				<div class="widget">
+					<h5 class="widgetheading">Our Contact</h5>
+					<address>
+					<strong>PRAYASH Heavy Engineering Private Limited</strong><br>Plot no: 57+62, Aatmiya Brookfieldz Industrial Park<br>
+					 National Highway-8, Nr. Por, Vadodara – 391243, Gujarat, India.</address>
+					<p>
+						<i class="icon-envelope-alt"></i> contact@prayashheavyengg.com
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="widget">
+					<h5 class="widgetheading">Quick Links</h5>
+					<ul class="link-list">
+						<li><a class="waves-effect waves-dark" href="#">Latest Events</a></li>
+						<li><a class="waves-effect waves-dark" href="#">Terms and conditions</a></li>
+						<li><a class="waves-effect waves-dark" href="#">Privacy policy</a></li>
+						<li><a class="waves-effect waves-dark" href="#">Career</a></li>
+						<li><a class="waves-effect waves-dark" href="#">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="widget">
+					<h5 class="widgetheading">Latest posts</h5>
+					<ul class="link-list">
+						<li><a class="waves-effect waves-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+						<li><a class="waves-effect waves-dark" href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+						<li><a class="waves-effect waves-dark" href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3">
+					<div class="widget">
+					<h5 class="widgetheading">Recent News</h5>
+					<ul class="link-list">
+						<li><a class="waves-effect waves-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+						<li><a class="waves-effect waves-dark" href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
+						<li><a class="waves-effect waves-dark" href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<ul class="social-network">
+						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+						<li><a class="waves-effect waves-dark" href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+</div>
+<a href="#" class="scrollup waves-effect waves-dark"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="materialize/js/materialize.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<!-- Vendor Scripts -->
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+
 </body>
 </html>
